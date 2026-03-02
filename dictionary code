@@ -1,0 +1,37 @@
+#dictonary 
+Dictonary operations
+student={
+    "name":"Rajat kumar",
+    "age":19,
+    "division":"IT1",
+    "Marks":[20,22,23]
+}
+# #Access a value by key
+# print("Name",student["name"])
+
+# #Add a new key value  pair
+# student["city"]= "jammu" 
+# print("after adding city:", student)
+
+# #update a value
+# student["marks"]=45,34,23
+# print('after updating:',student)
+
+# #remove a key value
+# student.pop("Marks")
+# print("after removing Marks:",student)
+
+#get all values
+
+#val=student.values()
+#print("Values:",val)
+
+# iterate 
+for i,n in student.items():
+    print(f"{i}:{n}")
+
+# stu2=student.copy()
+# print(stu2)
+
+# student.clear()
+# print(student)
